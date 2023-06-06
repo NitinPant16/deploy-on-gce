@@ -14,7 +14,7 @@ steps:
     - --subnet=mig-subnet
     - --tags=allow-hc-and-proxy,allow-ssh
     - --container-image
-    - us-central1-docker.pkg.dev/searce-playground-v1/python-repo/python-image:latest
+    - gcr.io/searce-playground-v1/python-repo/python-image:latest
 
  # # create the managed instance group
 - name: 'gcr.io/cloud-builders/gcloud'
